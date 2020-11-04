@@ -30,13 +30,13 @@ namespace RestApiWeb.Controllers
 
         [Route("api/user/v1/RegistraUser")]
         [HttpPost]
-        public HttpResponseMessage RegistraUser(string user)
+        public HttpResponseMessage RegistraUser(User user)
         {
             DResponseMsg msg = new DResponseMsg();
             try
             {
                 DUser usuario = new DUser();               
-                string resultado = usuario.GuardarUser(user);
+                string resultado = usuario.GuardarUser(user.Username);
                 msg.status = (int)HttpStatusCode.OK;
                 msg.msg = resultado;
             }

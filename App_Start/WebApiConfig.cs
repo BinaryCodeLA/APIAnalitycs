@@ -17,7 +17,7 @@ namespace RestApiWeb
             // Web API routes
             config.MapHttpAttributeRoutes();
 
-            var corsAttr = new EnableCorsAttribute("http://localhost:5500 , https://binarycodela.github.io", "*", "*");
+            var corsAttr = new EnableCorsAttribute("http://localhost:5500 , http://localhost:5501 ,  https://binarycodela.github.io", "*", "*");
             config.EnableCors(corsAttr);
            
             config.Routes.MapHttpRoute(
