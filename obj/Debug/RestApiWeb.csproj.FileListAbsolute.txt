@@ -497,7 +497,6 @@ C:\Users\BinaryCode\Documents\Elim5\APIAnalitycs\bin\System.Web.WebPages.Deploym
 C:\Users\BinaryCode\Documents\Elim5\APIAnalitycs\bin\System.Web.WebPages.Razor.xml
 C:\Users\BinaryCode\Documents\Elim5\APIAnalitycs\bin\Antlr3.Runtime.pdb
 C:\Users\BinaryCode\Documents\Elim5\APIAnalitycs\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\BinaryCode\Documents\Elim5\APIAnalitycs\obj\Debug\RestApiWeb.csprojAssemblyReference.cache
 C:\Users\BinaryCode\Documents\Elim5\APIAnalitycs\obj\Debug\RestApiWeb.csproj.CoreCompileInputs.cache
 C:\Users\BinaryCode\Documents\Elim5\APIAnalitycs\obj\Debug\RestApiWeb.csproj.CopyComplete
 C:\Users\BinaryCode\Documents\Elim5\APIAnalitycs\obj\Debug\RestApiWeb.dll

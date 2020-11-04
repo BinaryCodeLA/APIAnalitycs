@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/Style.css")
+    @Styles.Render("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -22,6 +24,7 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("DASHBOARD", "Index", "Dashboard", new { area = "" }, null)</li>
                 </ul>
             </div>
         </div>
@@ -37,5 +40,6 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    @Scripts.Render("~/Scripts/main.js")
 </body>
 </html>
